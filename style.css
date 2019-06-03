@@ -1,0 +1,71 @@
+
+
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.bn-medium {
+  color: grey;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 7px;
+  opacity: .6;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.bn-medium:hover {
+opacity: 1;
+color: grey;
+text-decoration: none;
+}
+
+.twitter {
+  color: white;
+  background-color: blue;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 7px;
+  opacity: .6;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.twitter:hover {
+opacity: 1;
+text-decoration: none;
+}
+
+.card {
+  height: 250px;
+  color: white;
+  background: linear-gradient(135deg,rgba(0, 0, 0, 0.9) 0%,
+                                  rgba(0, 0, 0, 0.1)90%),
+                                  url('https://picsum.photos/300/200');
+  position: relative;
+}
+
+.card-category {
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mybadge {
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+}
