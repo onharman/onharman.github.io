@@ -45,6 +45,7 @@ text-decoration: none;
                                   rgba(0, 0, 0, 0.1)90%),
                                   url('https://picsum.photos/300/200');
   position: relative;
+  background-size: cover;
 }
 
 .card-category {
@@ -68,4 +69,93 @@ text-decoration: none;
   position: relative;
   bottom: 20px;
   right: 15px;
+}
+
+.flex {
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+#flex-item1 {
+  flex: 0 0 50px;
+}
+
+#flex-item2 {
+  flex:
+}
+#flex-item3 {
+  flex: 0 0 50px;
+}
+
+.banner {
+  height: vh;
+  color: white;
+  background: linear-gradient(135deg,rgba(0, 0, 0, 0.9) 0%,
+                                  rgba(0, 0, 0, 0.1)90%),
+                                  url('https://picsum.photos/800/200');
+  background-size: cover;
+  display: flex;
+  justify-content: space-around; /*vertical alignment */
+  align-items: center; /*horizontal alignment */
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  opacity: .8
+}
+.banner h2 {
+  margin-bottom: 20px;
+  font-weight: lighter;
+  opacity: .8
+}
+
+.banner p {
+  font-weight: lighter;
+}
+
+.tabs {
+  background:rgb(54, 47, 46);
+  display: flex;
+  color: white;
+  padding: 10px 10px 0 10px;
+}
+.tab-item h3 {
+  font-weight: bold;
+  font-size: 19px;
+}
+.tab-item p {
+  font-weight: lighter;
+  opacity: .8;
+}
+
+.tab-item  {
+  flex: 1 0 auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  background: rgb(80, 70, 68);
+  }
+
+.tab-item:first-child {
+  border-radius: 10px 0 0 0 ;
+}
+
+
+.tab-item:last-child {
+  border-radius: 0 10px 0 0 ;
+}
+
+.tab-item.active {
+  background: white;
+  color: black;
+}
+
+.tab-item:hover {
+  color: black;
+  background: rgb(62, 55, 53);
 }
