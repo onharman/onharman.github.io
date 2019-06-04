@@ -159,3 +159,42 @@ text-decoration: none;
   color: black;
   background: rgb(62, 55, 53);
 }
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 0 10px;
+}
+.product-description h3{
+  margin-top: 0
+}
+.product-description p{
+  margin-bottom: 0
+}
+
+.product-upvotes {
+  text-align: center;
+  padding: 10px;
+}
+
+.product-controls {
+  opacity: .5;
+  color: black;
+  font-size: 20px;
+}
+
+.product:hover {
+  background: rgb(242, 242, 242);
+}
+
+.product-controls:hover {
+  color: black;
+  opacity: 1;
+  text-decoration: none;
+}
