@@ -5,6 +5,11 @@
   width: 50px;
 }
 
+.avatar1 {
+  border-radius: 50%;
+  width: 100px;
+}
+
 .bn-medium {
   color: grey;
   border: 1px solid grey;
@@ -197,4 +202,48 @@ text-decoration: none;
   color: black;
   opacity: 1;
   text-decoration: none;
+}
+
+.frosted {
+ background-image: url(http://bit.ly/2gPLxZ4); //add "" if you want
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.frostedwindow {
+ background: inherit;
+ width: 350px;
+ height: 450px;
+ position: absolute;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+.frostedcontent {
+  position: absolute;
+  top: 20px;
+  padding: 10px;
+}
+
+.frostedwindow::before{
+ content: "";
+ width: 400px;
+ height: 500px;
+ background: inherit;
+ position: absolute;
+ left: -25px;  //giving minus -25px left position
+ right: 0;
+ top: -25px;   //giving minus -25px top position
+ bottom: 0;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+ filter: blur(5px);
 }
