@@ -78,9 +78,9 @@ text-decoration: none;
 
 .flex {
   height: 100px;
-  background-color: yellow;
+  background-color: rgb(72, 123, 147);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items:center;
 }
 
